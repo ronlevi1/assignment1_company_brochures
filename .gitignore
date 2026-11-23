@@ -1,0 +1,23 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Tests
+.pytest_cache/
+.pytest_tmp_local/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local execution data
+runs/
+
+# Archives
+*.zip
