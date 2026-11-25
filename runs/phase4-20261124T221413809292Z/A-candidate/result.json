@@ -1,0 +1,35 @@
+{
+  "run_id": "phase4-20261124T221413809292Z",
+  "action": "A-candidate",
+  "company": "A",
+  "audience": "candidate",
+  "model": "gemini-3.5-flash-lite",
+  "started_at": "2026-11-24T22:14:26.380809+00:00",
+  "input_path": "runs/phase4-20261124T221413809292Z/A-candidate/input.json",
+  "output_path": "runs/phase4-20261124T221413809292Z/A-candidate/output.md",
+  "status": "invalid",
+  "usage": {
+    "completion_tokens": 311,
+    "prompt_tokens": 2998,
+    "total_tokens": 3309
+  },
+  "finish_reason": "stop",
+  "duration_seconds": 1.498,
+  "validation": {
+    "cited_ids": [
+      "A1",
+      "A2",
+      "A3"
+    ],
+    "errors": [
+      "Missing inline citations",
+      "Malformed citation: A1, A3",
+      "Malformed citation: A1, A3",
+      "Malformed citation: A1, A2",
+      "Word count outside 200-300",
+      "Source list differs from the cited IDs and URLs"
+    ],
+    "word_count": 90,
+    "valid": false
+  }
+}

@@ -1,0 +1,4 @@
+{"id":"RgwGa7-6K5nDvdIP0dSnwA0","choices":[{"delta":{"content":"##","role":"assistant"},"index":0}],"created":1795558471,"model":"gemini-3.5-flash-lite","object":"chat.completion.chunk"}
+{"id":"RgwGa7-6K5nDvdIP0dSnwA0","choices":[{"delta":{"content":" העבודה האפשרית בח","role":"assistant"},"index":0}],"created":1795558471,"model":"gemini-3.5-flash-lite","object":"chat.completion.chunk"}
+{"id":"RgwGa7-6K5nDvdIP0dSnwA0","choices":[{"delta":{"content":"ברה","role":"assistant"},"index":0}],"created":1795558472,"model":"gemini-3.5-flash-lite","object":"chat.completion.chunk"}
+{"id":"RgwGa7-6K5nDvdIP0dSnwA0","choices":[{"delta":{"content":"\nמคน המועמדים שעשויים להצטרף ל-Fathom","role":"assistant"},"index":0}],"created":1795558472,"model":"gemini-3.5-flash-lite","object":"chat.completion.chunk"}

@@ -1,0 +1,33 @@
+{
+  "run_id": "phase4-20261124T221413809292Z",
+  "action": "A-customer",
+  "company": "A",
+  "audience": "customer",
+  "model": "gemini-3.5-flash-lite",
+  "started_at": "2026-11-24T22:14:13.877725+00:00",
+  "input_path": "runs/phase4-20261124T221413809292Z/A-customer/input.json",
+  "output_path": "runs/phase4-20261124T221413809292Z/A-customer/output.md",
+  "status": "invalid",
+  "usage": {
+    "completion_tokens": 712,
+    "prompt_tokens": 3008,
+    "total_tokens": 3720
+  },
+  "finish_reason": "stop",
+  "duration_seconds": 12.494,
+  "validation": {
+    "cited_ids": [
+      "A1",
+      "A2",
+      "A3"
+    ],
+    "errors": [
+      "Malformed citation: A1, A3",
+      "Malformed citation: A1, A2",
+      "Malformed citation: A1, A3",
+      "Source list differs from the cited IDs and URLs"
+    ],
+    "word_count": 233,
+    "valid": false
+  }
+}

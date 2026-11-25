@@ -1,0 +1,40 @@
+{
+  "run_id": "phase2-for-20261124T144231622541Z-attempt-02",
+  "action": "link_selection",
+  "company": "Fathom Analytics",
+  "audience": [
+    "potential customers",
+    "job candidates"
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "started_at": "2026-11-24T14:58:35.740550+00:00",
+  "input_path": "runs/phase2-for-20261124T144231622541Z-attempt-02/B/input.json",
+  "output_path": "runs/phase2-for-20261124T144231622541Z-attempt-02/B/result.json",
+  "outcome": "accepted",
+  "validation": "valid",
+  "duration_seconds": 1.626,
+  "http_status": 200,
+  "raw_response_path": "runs/phase2-for-20261124T144231622541Z-attempt-02/B/response.json",
+  "usage": {
+    "completion_tokens": 165,
+    "prompt_tokens": 1080,
+    "total_tokens": 1245
+  },
+  "links": [
+    {
+      "type": "products",
+      "url": "https://usefathom.com/features",
+      "reason": "The features page helps potential customers understand the core product capabilities and offerings."
+    },
+    {
+      "type": "pricing",
+      "url": "https://usefathom.com/pricing",
+      "reason": "The pricing page provides potential customers with clear cost structures to evaluate the software."
+    },
+    {
+      "type": "company",
+      "url": "https://usefathom.com/about",
+      "reason": "The about page gives job candidates and customers insight into the company background and mission."
+    }
+  ]
+}

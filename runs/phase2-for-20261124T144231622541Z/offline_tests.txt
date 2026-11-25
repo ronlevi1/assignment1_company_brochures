@@ -1,0 +1,20 @@
+test_empty_and_unsupported (test_phase2.NormalizationTests.test_empty_and_unsupported) ... ok
+test_external_and_misleading_authorities (test_phase2.NormalizationTests.test_external_and_misleading_authorities) ... ok
+test_homepage_and_policy_pages (test_phase2.NormalizationTests.test_homepage_and_policy_pages) ... ok
+test_http_https_queries_and_configured_www (test_phase2.NormalizationTests.test_http_https_queries_and_configured_www) ... ok
+test_prompt_preserves_exact_candidates (test_phase2.NormalizationTests.test_prompt_preserves_exact_candidates) ... ok
+test_relative_fragments_and_duplicates (test_phase2.NormalizationTests.test_relative_fragments_and_duplicates) ... ok
+test_duplicate_normalized_selections (test_phase2.ValidationTests.test_duplicate_normalized_selections) ... ok
+test_forbidden_item_rejects_entire_response (test_phase2.ValidationTests.test_forbidden_item_rejects_entire_response) ... ok
+test_invalid_json (test_phase2.ValidationTests.test_invalid_json) ... ok
+test_required_strings (test_phase2.ValidationTests.test_required_strings) ... ok
+test_root_and_list_shape (test_phase2.ValidationTests.test_root_and_list_shape) ... ok
+test_too_many_items (test_phase2.ValidationTests.test_too_many_items) ... ok
+test_url_absent_or_not_verbatim (test_phase2.ValidationTests.test_url_absent_or_not_verbatim) ... ok
+test_valid_empty (test_phase2.ValidationTests.test_valid_empty) ... ok
+test_valid_selections (test_phase2.ValidationTests.test_valid_selections) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.004s
+
+OK

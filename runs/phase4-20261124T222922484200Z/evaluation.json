@@ -1,0 +1,9 @@
+{
+  "criteria": [
+    "Factual faithfulness",
+    "Audience suitability",
+    "Information coverage",
+    "Clarity"
+  ],
+  "audit_rule": "In reading order, take the first two substantial, verifiable factual claims from each main brochure, regardless of citation or apparent correctness. Exclude the baseline and source lists. Record a shortfall if fewer than two qualify."
+}

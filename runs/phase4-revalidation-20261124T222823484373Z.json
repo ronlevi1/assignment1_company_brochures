@@ -1,0 +1,167 @@
+{
+  "outputs": {
+    "A-customer": {
+      "original_result": "runs/phase4-20261124T222439940597Z/A-customer/result.json",
+      "output_sha256": "fd1d7e083c5a27c1fb5091828d8a15b65218c7c985eeb1bbcff5d1adc272da34",
+      "original": {
+        "cited_ids": [
+          "A1",
+          "A2",
+          "A3"
+        ],
+        "errors": [],
+        "word_count": 258,
+        "valid": true
+      },
+      "offline_validation": {
+        "cited_ids": [
+          "A1",
+          "A2",
+          "A3"
+        ],
+        "errors": [],
+        "word_count": 258,
+        "valid": true
+      },
+      "finish_reason": "stop"
+    },
+    "A-candidate": {
+      "original_result": "runs/phase4-20261124T222352866808Z/A-candidate/result.json",
+      "output_sha256": "4aa7b4e5e4a196e807c451c458f802fd9526ddba4af778a3d9017416a45460b6",
+      "original": {
+        "cited_ids": [
+          "A1",
+          "A2",
+          "A3"
+        ],
+        "errors": [],
+        "word_count": 290,
+        "valid": true
+      },
+      "offline_validation": {
+        "cited_ids": [
+          "A1",
+          "A2",
+          "A3"
+        ],
+        "errors": [],
+        "word_count": 290,
+        "valid": true
+      },
+      "finish_reason": "stop"
+    },
+    "B-customer": {
+      "original_result": "runs/phase4-20261124T222445521780Z/B-customer/result.json",
+      "output_sha256": "56eccdce486d1865f38d05070a8fa457f58bdd328fcbc1a2e578d4c8283d0a8a",
+      "original": {
+        "cited_ids": [
+          "B1",
+          "B2",
+          "B3",
+          "B4"
+        ],
+        "errors": [
+          "Source list differs from the cited IDs and URLs"
+        ],
+        "word_count": 219,
+        "valid": false
+      },
+      "offline_validation": {
+        "cited_ids": [
+          "B1",
+          "B2",
+          "B3",
+          "B4"
+        ],
+        "errors": [],
+        "word_count": 219,
+        "valid": true
+      },
+      "finish_reason": "stop"
+    },
+    "B-candidate": {
+      "original_result": "runs/phase4-20261124T222450924062Z/B-candidate/result.json",
+      "output_sha256": "1042ae6aebec23b396e0f99ebc39d3cd07ae6eec0a420e109f4c4e04f78f42e1",
+      "original": {
+        "cited_ids": [
+          "B1",
+          "B2",
+          "B3",
+          "B4"
+        ],
+        "errors": [
+          "Word count outside 200-300",
+          "Source list differs from the cited IDs and URLs"
+        ],
+        "word_count": 170,
+        "valid": false
+      },
+      "offline_validation": {
+        "cited_ids": [
+          "B1",
+          "B2",
+          "B3",
+          "B4"
+        ],
+        "errors": [
+          "Word count outside 200-300"
+        ],
+        "word_count": 170,
+        "valid": false
+      },
+      "finish_reason": "stop"
+    },
+    "comparison": {
+      "original_result": "runs/phase4-20261124T222455965713Z/comparison/result.json",
+      "output_sha256": "b92165e16bc70e0b1e1cb7f6d28fcbeebeeab88ea465c083f304e877144e4edd",
+      "original": {
+        "cited_ids": [
+          "A1",
+          "B1",
+          "B3"
+        ],
+        "errors": [],
+        "valid": true
+      },
+      "offline_validation": {
+        "cited_ids": [
+          "A1",
+          "B1",
+          "B3"
+        ],
+        "errors": [],
+        "valid": true
+      },
+      "finish_reason": "stop"
+    },
+    "A-customer-baseline": {
+      "original_result": "runs/phase4-20261124T222639916451Z/A-customer-baseline/result.json",
+      "output_sha256": "49589a7689b79ab0b8732ab3da46486173862313094611491913e87e8a3f740e",
+      "original": {
+        "cited_ids": [
+          "A1",
+          "A2",
+          "A3"
+        ],
+        "errors": [
+          "Source list differs from the cited IDs and URLs"
+        ],
+        "word_count": 211,
+        "valid": false
+      },
+      "offline_validation": {
+        "cited_ids": [
+          "A1",
+          "A2",
+          "A3"
+        ],
+        "errors": [],
+        "word_count": 211,
+        "valid": true
+      },
+      "finish_reason": "stop"
+    }
+  },
+  "baseline_check": "Same user message, model, stream setting and company/audience. The system prompts differ only in the requested structure.",
+  "candidate_factual_check": "B4 reports billions of pageviews, millions of customer websites, and thousands of paying customers. Customer plan roles in B3 are not staffing information."
+}

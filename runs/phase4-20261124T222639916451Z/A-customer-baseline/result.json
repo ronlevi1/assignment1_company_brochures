@@ -1,0 +1,30 @@
+{
+  "run_id": "phase4-20261124T222639916451Z",
+  "action": "A-customer-baseline",
+  "company": "A",
+  "audience": "customer",
+  "model": "gemini-3.5-flash-lite",
+  "started_at": "2026-11-24T22:26:40.000563+00:00",
+  "input_path": "runs/phase4-20261124T222639916451Z/A-customer-baseline/input.json",
+  "output_path": "runs/phase4-20261124T222639916451Z/A-customer-baseline/output.md",
+  "status": "invalid",
+  "usage": {
+    "completion_tokens": 622,
+    "prompt_tokens": 3067,
+    "total_tokens": 3689
+  },
+  "finish_reason": "stop",
+  "duration_seconds": 3.788,
+  "validation": {
+    "cited_ids": [
+      "A1",
+      "A2",
+      "A3"
+    ],
+    "errors": [
+      "Source list differs from the cited IDs and URLs"
+    ],
+    "word_count": 211,
+    "valid": false
+  }
+}

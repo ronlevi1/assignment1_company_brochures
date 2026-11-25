@@ -1,0 +1,27 @@
+{
+  "run_id": "phase4-20261124T222455965713Z",
+  "action": "comparison",
+  "company": "A+B",
+  "audience": "customers and candidates",
+  "model": "gemini-3.5-flash-lite",
+  "started_at": "2026-11-24T22:24:56.036220+00:00",
+  "input_path": "runs/phase4-20261124T222455965713Z/comparison/input.json",
+  "output_path": "runs/phase4-20261124T222455965713Z/comparison/output.md",
+  "status": "complete",
+  "usage": {
+    "completion_tokens": 873,
+    "prompt_tokens": 3262,
+    "total_tokens": 4135
+  },
+  "finish_reason": "stop",
+  "duration_seconds": 4.252,
+  "validation": {
+    "cited_ids": [
+      "A1",
+      "B1",
+      "B3"
+    ],
+    "errors": [],
+    "valid": true
+  }
+}

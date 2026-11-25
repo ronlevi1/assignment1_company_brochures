@@ -1,0 +1,35 @@
+{
+  "run_id": "phase2-for-20261124T144231622541Z-attempt-04",
+  "action": "link_selection",
+  "company": "Plausible Analytics",
+  "audience": [
+    "potential customers",
+    "job candidates"
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "started_at": "2026-11-24T22:05:04.383035+00:00",
+  "input_path": "runs/phase2-for-20261124T144231622541Z-attempt-04/A/input.json",
+  "output_path": "runs/phase2-for-20261124T144231622541Z-attempt-04/A/result.json",
+  "outcome": "accepted",
+  "validation": "valid",
+  "duration_seconds": 1.655,
+  "http_status": 200,
+  "raw_response_path": "runs/phase2-for-20261124T144231622541Z-attempt-04/A/response.json",
+  "usage": {
+    "completion_tokens": 90,
+    "prompt_tokens": 745,
+    "total_tokens": 835
+  },
+  "links": [
+    {
+      "type": "products",
+      "url": "https://plausible.io/features",
+      "reason": "The features page helps potential customers understand the core product capabilities and helps job candidates see what the company builds."
+    },
+    {
+      "type": "pricing",
+      "url": "https://plausible.io/about",
+      "reason": "The about page provides company background and mission, which helps job candidates understand the organization and culture."
+    }
+  ]
+}

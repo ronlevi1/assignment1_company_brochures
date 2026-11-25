@@ -1,0 +1,23 @@
+{
+  "run_id": "phase1-20261124T144231622541Z",
+  "companies": {
+    "A": {
+      "name": "Plausible Analytics",
+      "url": "https://plausible.io/"
+    },
+    "B": {
+      "name": "Fathom Analytics",
+      "url": "https://usefathom.com/"
+    }
+  },
+  "dimensions": [
+    "Products and services",
+    "Target customers",
+    "Pricing or trial availability",
+    "Employment and career information"
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "source_context_budget": 12000,
+  "dimensions_first_saved_in": "runs/phase1-20261124T143448052809Z/setup.json",
+  "collection_method": "Chrome View Source"
+}

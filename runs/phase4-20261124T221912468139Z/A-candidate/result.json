@@ -1,0 +1,28 @@
+{
+  "run_id": "phase4-20261124T221912468139Z",
+  "action": "A-candidate",
+  "company": "A",
+  "audience": "candidate",
+  "model": "gemini-3.5-flash-lite",
+  "started_at": "2026-11-24T22:19:12.539326+00:00",
+  "input_path": "runs/phase4-20261124T221912468139Z/A-candidate/input.json",
+  "output_path": "runs/phase4-20261124T221912468139Z/A-candidate/output.md",
+  "status": "complete",
+  "usage": {
+    "completion_tokens": 629,
+    "prompt_tokens": 3103,
+    "total_tokens": 3732
+  },
+  "finish_reason": "stop",
+  "duration_seconds": 5.163,
+  "validation": {
+    "cited_ids": [
+      "A1",
+      "A2",
+      "A3"
+    ],
+    "errors": [],
+    "word_count": 219,
+    "valid": true
+  }
+}

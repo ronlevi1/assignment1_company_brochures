@@ -1,0 +1,24 @@
+HW1 - Offline submission verification
+Status: Pending manual factual audit approval.
+Windows / Python 3.14.6. Verified from an extracted copy with no .env.
+Command: python -m pytest -q -p no:cacheprovider
+......................................                                   [100%]
+38 passed in 3.47s
+
+
+Offline replay: all 12 code cells executed in order from the extracted notebook using IPython %run, including the Phase 2 offline tests and the Phase 5 audit and reviewed outputs. No API key or live collection. The separate nbconvert kernel launch could not set the Windows connection file ACL (WinError 5) in Codex; GUI/kernel launch was not verified here.
+PDF: 3 A4 pages; rendered and visually inspected.
+Python and all nine pinned dependency versions matched. Local report, README, audit and evidence paths resolved.
+Source-site requests: 9 (2 Python homepage failures, 2 browser captures, 5 additional pages). Model attempts: 5 selections + 15 generations. Synthetic Phase 2 attempt-03 is preserved and excluded.
+All 7 saved sources match the selected URLs. All three contexts were reconstructed exactly. Source-text characters: A 12000, B 12000, comparison 12000 combined.
+Historical model input/output paths, raw completions and recorded stream chunks checked. Reported token usage is retained as received.
+Word counts by split (including headings, excluding final source list), original / reviewed:
+A-customer 258 / 216
+A-candidate 290 / 230
+B-customer 219 / 223
+B-candidate 187 / 242
+All four reviewed brochures passed the source-ID, source-URL and length checks against their original inputs. The comparison passed the table and citation checks.
+The last B-candidate stream reconstructed byte-for-byte from 26 events and ended with stop; the original failed length validation. The editorial copy was prepared after generation.
+A-customer baseline: 211 words. Identical model, parameters, audience, context and shared instructions; only the structure instruction differs.
+Eight original audit excerpts and quoted evidence located in the saved material. Proposed verdicts: 3 supported, 5 partially supported, all pending human approval.
+Packaging rules: allowlisted project files; no .env, environments, caches or temporary test directories. Files checked for configured secrets and common credential signatures. Historical validation and failed-attempt records retained.

@@ -1,0 +1,22 @@
+{
+  "run_id": "phase4-20261124T221413809292Z",
+  "action": "B-candidate",
+  "company": "B",
+  "audience": "candidate",
+  "model": "gemini-3.5-flash-lite",
+  "started_at": "2026-11-24T22:14:31.199023+00:00",
+  "input_path": "runs/phase4-20261124T221413809292Z/B-candidate/input.json",
+  "output_path": "runs/phase4-20261124T221413809292Z/B-candidate/output.md",
+  "status": "partial",
+  "duration_seconds": 1.733,
+  "validation": {
+    "cited_ids": [],
+    "errors": [
+      "Missing inline citations",
+      "Word count outside 200-300",
+      "Missing final sources heading"
+    ],
+    "word_count": 9,
+    "valid": false
+  }
+}

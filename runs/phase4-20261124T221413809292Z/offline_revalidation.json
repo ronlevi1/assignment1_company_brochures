@@ -1,0 +1,161 @@
+{
+  "A-customer": {
+    "original_status": "invalid",
+    "original_errors": [
+      "Malformed citation: A1, A3",
+      "Malformed citation: A1, A2",
+      "Malformed citation: A1, A3",
+      "Source list differs from the cited IDs and URLs"
+    ],
+    "http_status_recorded": null,
+    "exception_recorded": null,
+    "finish_reason_recorded": "stop",
+    "body_split_count": 233,
+    "output_sha256": "ed9dcf6db8933bbe8e09bde1df16d238995c169d45c3b9bae68fc633bb606ff9",
+    "offline_validation": {
+      "cited_ids": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "errors": [],
+      "word_count": 233,
+      "valid": true
+    },
+    "decision": "regenerate",
+    "reason": "Mechanical pass. Mixed Arabic and Hebrew inside the audience word; mistranslates the single-page dashboard. The site-speed marketing claim is presented as fact."
+  },
+  "A-candidate": {
+    "original_status": "invalid",
+    "original_errors": [
+      "Missing inline citations",
+      "Malformed citation: A1, A3",
+      "Malformed citation: A1, A3",
+      "Malformed citation: A1, A2",
+      "Word count outside 200-300",
+      "Source list differs from the cited IDs and URLs"
+    ],
+    "http_status_recorded": null,
+    "exception_recorded": null,
+    "finish_reason_recorded": "stop",
+    "body_split_count": 90,
+    "output_sha256": "0d15738292672d8210df079e164b031d8937e3246975d9edd0fd32d0153d8791",
+    "offline_validation": {
+      "cited_ids": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "errors": [
+        "Word count outside 200-300"
+      ],
+      "word_count": 90,
+      "valid": false
+    },
+    "decision": "regenerate",
+    "reason": "90 words. The blanket team-information gap misses A3, which describes an 11-person team and the company history. No inference about vacancies is justified."
+  },
+  "B-customer": {
+    "original_status": "invalid",
+    "original_errors": [
+      "Malformed citation: B1, B2",
+      "Malformed citation: B1, B2",
+      "Malformed citation: B1, B2, B3",
+      "Malformed citation: B1, B2",
+      "Malformed citation: B1, B2, B4",
+      "Malformed citation: B1, B2, B4",
+      "Malformed citation: B1, B2, B4",
+      "Source list differs from the cited IDs and URLs"
+    ],
+    "http_status_recorded": null,
+    "exception_recorded": null,
+    "finish_reason_recorded": "stop",
+    "body_split_count": 215,
+    "output_sha256": "18db5a0861d8b2e7b4f17486e1dcb52940b71e9d4c11599ffc9717e2e9fe2388",
+    "offline_validation": {
+      "cited_ids": [
+        "B1",
+        "B2",
+        "B3",
+        "B4"
+      ],
+      "errors": [],
+      "word_count": 215,
+      "valid": true
+    },
+    "decision": "regenerate",
+    "reason": "Mechanical pass. Garbled Hebrew in the EU data isolation explanation. The final section addresses joining the company and supplies no practical buyer questions; the compliance language overstates what a buyer can infer."
+  },
+  "B-candidate": {
+    "original_status": "partial",
+    "original_errors": [
+      "Missing inline citations",
+      "Word count outside 200-300",
+      "Missing final sources heading"
+    ],
+    "http_status_recorded": null,
+    "exception_recorded": null,
+    "finish_reason_recorded": null,
+    "body_split_count": 9,
+    "output_sha256": "2b6985364b0719836275e6943681b2e2ba27cf5f18424e514e6dd87ae3e0d3c1",
+    "offline_validation": {
+      "cited_ids": [],
+      "errors": [
+        "Missing inline citations",
+        "Word count outside 200-300",
+        "Missing final sources heading"
+      ],
+      "word_count": 9,
+      "valid": false
+    },
+    "decision": "regenerate",
+    "reason": "Only four streamed chunks, no terminal finish reason, no recorded exception, nine words and no citations or sources section. Mixed Thai and Hebrew text."
+  },
+  "comparison": {
+    "original_status": "invalid",
+    "original_errors": [
+      "Malformed citation: B1, B3"
+    ],
+    "http_status_recorded": null,
+    "exception_recorded": null,
+    "finish_reason_recorded": "stop",
+    "body_split_count": 286,
+    "output_sha256": "e496ada93ebb79337b7c527268870bfe3f250feee73cf69a6b154a0eb809ad92",
+    "offline_validation": {
+      "cited_ids": [
+        "A1",
+        "B1",
+        "B3"
+      ],
+      "errors": [],
+      "valid": true
+    },
+    "decision": "regenerate",
+    "reason": "Mechanical pass. Four dimensions and a conclusion. The conclusion attaches only B1 and B3 to a sentence making claims about both companies; the final sentence includes stray Thai letters."
+  },
+  "A-customer-baseline": {
+    "original_status": "failed",
+    "original_errors": [
+      "Missing inline citations",
+      "Word count outside 200-300",
+      "Missing final sources heading"
+    ],
+    "http_status_recorded": 503,
+    "exception_recorded": "InternalServerError",
+    "finish_reason_recorded": null,
+    "body_split_count": 0,
+    "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "offline_validation": {
+      "cited_ids": [],
+      "errors": [
+        "Missing inline citations",
+        "Word count outside 200-300",
+        "Missing final sources heading"
+      ],
+      "word_count": 0,
+      "valid": false
+    },
+    "decision": "regenerate",
+    "reason": "No generated text. HTTP 503 UNAVAILABLE: provider reported high demand."
+  }
+}

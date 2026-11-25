@@ -1,0 +1,27 @@
+{
+  "run_id": "phase4-20261124T222450924062Z",
+  "action": "B-candidate",
+  "company": "B",
+  "audience": "candidate",
+  "model": "gemini-3.5-flash-lite",
+  "started_at": "2026-11-24T22:24:51.001336+00:00",
+  "input_path": "runs/phase4-20261124T222450924062Z/B-candidate/input.json",
+  "output_path": "runs/phase4-20261124T222450924062Z/B-candidate/output.md",
+  "status": "invalid",
+  "finish_reason": "stop",
+  "duration_seconds": 3.168,
+  "validation": {
+    "cited_ids": [
+      "B1",
+      "B2",
+      "B3",
+      "B4"
+    ],
+    "errors": [
+      "Word count outside 200-300",
+      "Source list differs from the cited IDs and URLs"
+    ],
+    "word_count": 170,
+    "valid": false
+  }
+}
